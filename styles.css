@@ -24,6 +24,13 @@ main {
   padding: 10px;
 }
 
+/* Style for main heading */
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /* General image style */
 img {
   max-width: 100%;
