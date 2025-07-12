@@ -1,40 +1,68 @@
-/* Limit main width and center */
-main {
-  max-width: 800px;
-  margin: 0 auto;
+/* Style for navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-/* Style aside */
+/* Style for nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style for main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* General image style */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Style for aside */
 aside {
-  width: 200px;
-  margin: 1rem;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  background-color: #f5f5f5;
+  width: 250px;
+  margin: 20px auto;
+  border: 2px solid #555;
+  padding: 15px;
+  background-color: #f0f0f0;
   color: #333;
+  border-radius: 8px;
 }
 
 /* Image inside aside */
 aside img {
   width: 200px;
   height: auto;
+  display: block;
+  margin: 0 auto 15px;
 }
 
-/* Image inside main */
-main img {
-  width: 150px;
-  height: auto;
-}
-
-/* Remove padding from paragraphs */
+/* Paragraph style */
 p {
   padding: 0;
+  line-height: 1.5;
 }
 
-/* Style footer */
+/* Footer styling */
 footer {
-  margin-top: 2rem;
-  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  border-top: 2px solid #333;
   text-align: center;
-  padding-top: 1rem;
+  padding: 10px 0;
+  font-style: italic;
+  color: #555;
 }
